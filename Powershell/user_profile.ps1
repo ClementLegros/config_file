@@ -8,10 +8,6 @@ Import-Module oh-my-posh
 # Setup Theme
 Set-PoshPrompt night-owl
 
-# Load prompt config [Takuya Matsuyama | devaslife | craftzdog]
-#$omp_config = Join-Path $PSScriptRoot ".\BLS.omp.json"
-#oh-my-posh --init --shell pwsh --config $omp_config | Invoke-Expression
-
 # PSReadLine
 Set-PSReadLineOption -EditMode Emacs
 Set-PSReadLineOption -BellStyle None
